@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  padding: 20px;
+  background-color: #fcfaee;
+  font-size: 16px;
+  font-family: monospace;
+  text-align: center;
+}
+
+/* HEADER SECTION (NAVBAR */
+
+header {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  background-color: crimson;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: aliceblue;
+  padding-bottom: 2%;
+  margin-bottom: 2%s;
+  text-align: center;
+  box-shadow: 10px 10px 10px 5px gray;
+}
+h1 {
+  display: flex;
+  font-size: 3em;
+  text-align: center;
+}
+
+h2 {
+  display: flex;
+  font-size: 2em;
+  text-align: center;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+}
+
+a {
+  margin-right: 1em;
+  text-decoration: none;
+  color: aliceblue;
+  font-size: larger;
+}
+
+a:hover {
+  color: rgb(149, 255, 11);
+  rotate: 5deg;
+}
+
+/* MAIN SECTION (INTRODUCTION) */
+
+main {
+  display: flex;
+  margin: 0;
+  padding: 2%;
+  background-color: crimson;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: aliceblue;
+  margin-top: 5em;
+  text-align: center;
+  box-shadow: 10px 10px 10px 5px gray;
+}
+
+img {
+  border-radius: 40%;
+  margin-bottom: 2%;
+}
+
+.element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.iconskill {
+  width: 100px;
+  height: 100px;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: crimson;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: aliceblue;
+  margin-top: 2%;
+  text-align: center;
+  box-shadow: 10px 10px 10px 5px gray;
+}
+
+.social {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* CONTACT PAGE */
+
+form {
+  display: flex;
+  margin: 0;
+  padding: 2%;
+  background-color: rgb(189, 17, 51);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: rgb(255, 255, 255);
+  margin-top: 5em;
+  border-radius: 5%;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input {
+  background-color: rgb(253, 253, 253);
+}
+
+.button {
+  background-color: crimson;
+  color: #ffffff;
+  border: none;
+  height: 50%;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: larger;
+}
+
+/* MEDIA QUERIES (TABLET, PHONE) */
+
+/* TABLET (BETWEEN 768px AND 1023px) */
+@media (max-width: 1023px) and (min-width: 768px) {
+  body {
+    font-size: 15px;
+    padding: 15px;
+  }
+}
+
+/* PHONE (BETWEEN 768px AND 1023px) */
+@media (max-width: 1023px) and (min-width: 768px) {
+  body {
+    font-size: 15px;
+    padding: 15px;
+  }
+}
